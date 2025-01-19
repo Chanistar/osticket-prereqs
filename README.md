@@ -6,9 +6,7 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,23 +20,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
+- Downloading osTicket installation-files https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+- Installing / Enableing IIS in Windows with CGI.
+- Installing everything from the Installation Folder.
+- Registering PHP in IIS.
+- Enabling required extensions.
+- Creating a database on HeidiSQL.
+- Congrats! osTicket installed.
 <h2>Installation Steps</h2>
 
 ![osticket-installation](https://github.com/user-attachments/assets/4ea8ebfa-ec6a-4873-a9d1-7055ccea910b)
 ![osticket-installed](https://github.com/user-attachments/assets/2e3a6780-eb5f-430c-bc63-4c58ad9fc890)
+
+Downloading the osTicket-installation zip file so that we can install the program and its prerequisits.
 
 
 <p>
 
 </p>
 <p>
-Downloading the osTicket-installation zip file so that we can install the program and its prerequisits.
+osTicket installation-files
 </p>
 <br />
 
@@ -51,15 +52,49 @@ Downloading the osTicket-installation zip file so that we can install the progra
 
 
 >
-</p>
-IIS (Internet Information Services) is required to install osTicket because it acts as the web server that serves the application’s files to users over the internet. osTicket is a PHP-based web application, and IIS can be configured to process PHP code and handle HTTP requests. It provides the necessary environment to run the PHP scripts and deliver dynamic content such as ticketing data. Additionally, IIS helps manage security features like authentication and encryption, ensuring secure communication between users and the application. Without a web server like IIS, osTicket would not be able to function properly on a Windows server.osTicket requires IIS with CGI (Common Gateway Interface) because IIS, by default, doesn’t support PHP directly. CGI allows IIS to process PHP scripts and interact with the web server, enabling osTicket to function properly. By using IIS with CGI, PHP code can be executed on the server, generating dynamic content like ticket data and user interactions. CGI is a bridge between IIS and PHP, ensuring smooth communication between the web server and the PHP interpreter. Without CGI, IIS would not be able to execute the PHP scripts needed for osTicket to operate.
+
+
+
+
+</p>osTicket needs IIS (Internet Information Services) as a web server to host and serve the application on Windows-based servers, enabling it to handle HTTP requests and deliver the necessary resources to users
+osTicket needs IIS with CGI (Common Gateway Interface) to enable the execution of PHP scripts on a Windows server, allowing dynamic content generation and proper handling of web requests.
 </p>
 <br />
 
+
+
+![osticket download](https://github.com/user-attachments/assets/de6b2bf7-a937-4f8a-9841-464b72074b12)
+
+osTicket installation-files
+
+![php manager](https://github.com/user-attachments/assets/89319594-111d-4715-9e74-2deddee082dc)
+
+
+Registering PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+
+
+![enable extensions](https://github.com/user-attachments/assets/e36af7aa-5eec-4d21-906e-6840a3b0759f)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Enabling extensions.
 </p>
+
+
+![heidisql database](https://github.com/user-attachments/assets/a590779e-a0e4-4e9a-ab35-39066e24e19b)
+
+
+Creating a database on HeidiSQL.
+
+
+![osTicket instaslled](https://github.com/user-attachments/assets/93f9294f-a47b-4fbc-acc5-75f1685183b2)
+
+
+osTicket installed successfully:)
+
+
 <br />
