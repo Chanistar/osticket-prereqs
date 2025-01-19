@@ -47,11 +47,12 @@ Downloading the osTicket-installation zip file so that we can install the progra
   
   
   ![iis prerequisit](https://github.com/user-attachments/assets/62063041-30da-4726-a66a-a53413c24fff)
+![iis with cgi](https://github.com/user-attachments/assets/5870b35e-dc62-402a-b6cc-371c20bc9352)
 
 
 >
 </p>
-IIS (Internet Information Services) is required to install osTicket because it acts as the web server that serves the application’s files to users over the internet. osTicket is a PHP-based web application, and IIS can be configured to process PHP code and handle HTTP requests. It provides the necessary environment to run the PHP scripts and deliver dynamic content such as ticketing data. Additionally, IIS helps manage security features like authentication and encryption, ensuring secure communication between users and the application. Without a web server like IIS, osTicket would not be able to function properly on a Windows server.
+IIS (Internet Information Services) is required to install osTicket because it acts as the web server that serves the application’s files to users over the internet. osTicket is a PHP-based web application, and IIS can be configured to process PHP code and handle HTTP requests. It provides the necessary environment to run the PHP scripts and deliver dynamic content such as ticketing data. Additionally, IIS helps manage security features like authentication and encryption, ensuring secure communication between users and the application. Without a web server like IIS, osTicket would not be able to function properly on a Windows server.osTicket requires IIS with CGI (Common Gateway Interface) because IIS, by default, doesn’t support PHP directly. CGI allows IIS to process PHP scripts and interact with the web server, enabling osTicket to function properly. By using IIS with CGI, PHP code can be executed on the server, generating dynamic content like ticket data and user interactions. CGI is a bridge between IIS and PHP, ensuring smooth communication between the web server and the PHP interpreter. Without CGI, IIS would not be able to execute the PHP scripts needed for osTicket to operate.
 </p>
 <br />
 
