@@ -30,19 +30,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
+![osticket-installation](https://github.com/user-attachments/assets/4ea8ebfa-ec6a-4873-a9d1-7055ccea910b)
+![osticket-installed](https://github.com/user-attachments/assets/2e3a6780-eb5f-430c-bc63-4c58ad9fc890)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Downloading the osTicket-installation zip file so that we can install the program and its prerequisits.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p
+
+  
+  
+  ![iis prerequisit](https://github.com/user-attachments/assets/62063041-30da-4726-a66a-a53413c24fff)
+
+
+>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+IIS (Internet Information Services) is required to install osTicket because it acts as the web server that serves the application’s files to users over the internet. osTicket is a PHP-based web application, and IIS can be configured to process PHP code and handle HTTP requests. It provides the necessary environment to run the PHP scripts and deliver dynamic content such as ticketing data. Additionally, IIS helps manage security features like authentication and encryption, ensuring secure communication between users and the application. Without a web server like IIS, osTicket would not be able to function properly on a Windows server.
 </p>
 <br />
 
