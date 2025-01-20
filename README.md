@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Downloading osTicket installation-files https://tinyurl.com/5dkszuf5
+- Downloading osTicket-Installation-Files https://tinyurl.com/5dkszuf5
 - Installing / Enableing IIS in Windows with CGI.
 - Installing everything from the Installation Folder.
 - Registering PHP in IIS.
@@ -29,26 +29,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Congrats! osTicket installed.
 <h2>Installation Steps</h2>
 
-![osticket-installation](https://github.com/user-attachments/assets/4ea8ebfa-ec6a-4873-a9d1-7055ccea910b)
-![osticket-installed](https://github.com/user-attachments/assets/2e3a6780-eb5f-430c-bc63-4c58ad9fc890)
+![image](https://github.com/user-attachments/assets/8087f51d-d8aa-4118-9662-52b13d3b6d3a)
 
-Downloading the osTicket-installation zip file so that we can install the program and its prerequisits.
+![image](https://github.com/user-attachments/assets/6b59823d-cf1d-4c6f-a4d6-e7b548d536e5)
+
+
+Downloading the osTicket-Installation Zip File so that we can install the program and its prerequisits.
 
 
 <p>
 
 </p>
-<p>
-osTicket installation-files
+
 </p>
 <br />
 
 <p
 
   
-  
-  ![iis prerequisit](https://github.com/user-attachments/assets/62063041-30da-4726-a66a-a53413c24fff)
-![iis with cgi](https://github.com/user-attachments/assets/5870b35e-dc62-402a-b6cc-371c20bc9352)
+![image](https://github.com/user-attachments/assets/38610e2c-854f-4549-924f-c4982e13ec53)  
+
+![image](https://github.com/user-attachments/assets/0fc50567-fd92-4de0-bcd1-5e1aac319f0c)
+
 
 
 >
@@ -56,25 +58,42 @@ osTicket installation-files
 
 
 
-</p>osTicket needs IIS (Internet Information Services) as a web server to host and serve the application on Windows-based servers, enabling it to handle HTTP requests and deliver the necessary resources to users
-osTicket needs IIS with CGI (Common Gateway Interface) to enable the execution of PHP scripts on a Windows server, allowing dynamic content generation and proper handling of web requests.
+</p>osTicket needs IIS (Internet Information Services) as a web server to host and serve the application on Windows-based servers, enabling it to handle HTTP requests and deliver the necessary resources to users.
+
+osTicket also needs IIS with CGI (Common Gateway Interface) to enable the execution of PHP scripts on a Windows server, allowing dynamic content generation and proper handling of web requests.
 </p>
 <br />
 
 
 
-![osticket download](https://github.com/user-attachments/assets/de6b2bf7-a937-4f8a-9841-464b72074b12)
 
-osTicket installation-files
-
-![php manager](https://github.com/user-attachments/assets/89319594-111d-4715-9e74-2deddee082dc)
-
-
-Registering PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+![image](https://github.com/user-attachments/assets/58c0e2ca-64fe-40ae-baa3-f466dadcb4fe)
 
 
 
-![enable extensions](https://github.com/user-attachments/assets/e36af7aa-5eec-4d21-906e-6840a3b0759f)
+
+
+
+osTicket-Installation-Files
+
+
+
+
+![image](https://github.com/user-attachments/assets/f874253a-9402-4187-9542-985bc0a19a0a)
+
+
+
+
+
+
+Registering PHP from within IIS.
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/cbd216da-6b0c-426c-af52-17bd25a20f1e)
+
 
 <p>
 
@@ -85,16 +104,29 @@ Enabling extensions.
 </p>
 
 
-![heidisql database](https://github.com/user-attachments/assets/a590779e-a0e4-4e9a-ab35-39066e24e19b)
+
+
+
+
+![image](https://github.com/user-attachments/assets/78ec0812-a14c-40be-95d0-afa3e5c141b8)
+
+
+
+
 
 
 Creating a database on HeidiSQL.
 
 
-![osTicket instaslled](https://github.com/user-attachments/assets/93f9294f-a47b-4fbc-acc5-75f1685183b2)
+
+
+![image](https://github.com/user-attachments/assets/8708a125-0761-4499-b3bc-751411e569d7)
+
 
 
 osTicket installed successfully:)
+
+
 
 
 <br />
