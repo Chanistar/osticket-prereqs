@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Downloading osTicket installation-files https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+- Downloading osTicket installation-files https://tinyurl.com/5dkszuf5
 - Installing / Enableing IIS in Windows with CGI.
 - Installing everything from the Installation Folder.
 - Registering PHP in IIS.
